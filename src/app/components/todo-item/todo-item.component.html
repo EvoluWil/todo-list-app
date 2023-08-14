@@ -1,0 +1,3 @@
+<input type="checkbox" [checked]="task?.completed" (change)="onUpdateStatus()">
+<span>{{ task?.name }}</span>
+<button (click)="onRemove()" *ngIf="task?.completed">X</button>

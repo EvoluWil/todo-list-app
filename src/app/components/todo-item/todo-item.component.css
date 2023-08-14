@@ -1,0 +1,17 @@
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+span {
+  flex-grow: 1;
+}
+
+button {
+  margin-left: 8px;
+  padding: 2px 8px;
+  background-color: #dc3545;
+  border-radius: 8px;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
